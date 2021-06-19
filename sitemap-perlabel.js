@@ -6,7 +6,7 @@ var standardstyling = true;
 */
 
 function startpost(json){
-  for (var i = 100; i < numposts; i--){
+  for (var i = 100; i < numposts; i++){
     var entry = json.feed.entry[i];
     var posttitle = entry.title.$t;
     var posturl;
