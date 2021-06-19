@@ -28,3 +28,7 @@ function startpost(json){
   
   if (standardstyling) document.write('</li>');
 }
+
+function finished(){
+  document.write('<br /><br /><a href="https://bimbelwordpress.blogspot.com/p/kontak.html">Bimbel Wordpress</a>');
+}
